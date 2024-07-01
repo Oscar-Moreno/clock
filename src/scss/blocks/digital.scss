@@ -1,0 +1,14 @@
+.clock-digital{
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    color: white;
+    text-transform: capitalize;
+    .hour{
+        font-size: 7rem;
+    }
+    .date{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
