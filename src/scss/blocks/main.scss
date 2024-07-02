@@ -4,4 +4,6 @@
     height: 500px;
     border: 1px solid white;
     margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }

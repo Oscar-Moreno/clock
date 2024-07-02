@@ -12,15 +12,28 @@
     <main class="main">
       <div class="clock-digital">
         <div class="hour">
-          <span class="hour-hour" id="hour">12</span>
+          <span class="hour-hour" id="digital-hour"></span>
           <span>:</span>
-          <span class="hour-minutes" id="minutes">40</span>
+          <span class="hour-minutes" id="digital-minutes"></span>
         </div>
         <div class="date">
-          <span id="week-day">Monday</span>
-          <span id="month-day">1</span>
-          <span id="month">may</span>
-          <span id="year">2024</span>
+          <span id="week-day"></span>
+          <span id="month-day"></span>
+          <span id="month"></span>
+          <span id="year"></span>
+        </div>
+      </div>
+      <div class="analogic-clock">
+        <div class="outer-clock-face">
+          <div class="marking marking-one"></div>
+          <div class="marking marking-two"></div>
+          <div class="marking marking-three"></div>
+          <div class="marking marking-four"></div>
+          <div class="inner-clock-face">
+            <div id="hour-hand" class="hand hour-hand"></div>
+            <div id="minute-hand" class="hand min-hand"></div>
+            <div id="second-hand" class="hand second-hand"></div>
+          </div>
         </div>
       </div>
     </main>
